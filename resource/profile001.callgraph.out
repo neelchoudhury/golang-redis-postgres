@@ -1,0 +1,147 @@
+positions: instr line
+events: inuse_space(kB)
+
+ob=(1) /tmp/go-build4041762483/b001/exe/module
+fl=(1) /usr/local/go/src/regexp/onepass.go
+fn=(1) regexp.onePassCopy
+0x6ef9dc 226 512
+
+ob=(1)
+fl=(2) /usr/local/go/src/regexp/syntax/compile.go
+fn=(2) regexp/syntax.(*compiler).inst
+-74271 164 512
+
+ob=(1)
+fl=(3) /usr/local/go/src/runtime/proc.go
+fn=(3) runtime.doInit
+0x43fe8f 7143 0
+cfl=(3)
+cfn=(4) runtime.doInit1
+calls=0 0x44e6a7 7176
+* * 1024
+
+ob=(1)
+fl=(3)
+fn=(5) runtime.main
+* 253 0
+cfl=(3)
+cfn=(3)
+calls=0 * 7143
+* * 1024
+
+ob=(1)
+fl=(3)
+fn=(4)
++59416 7176 0
+cfl=(4) /home/neel/go/pkg/mod/github.com/jinzhu/inflection@v1.0.0/inflections.go
+cfn=(6) github.com/jinzhu/inflection.init.0
+calls=0 0x75310e 176
+* * 1024
+
+ob=(1)
+fl=(2)
+fn=(7) regexp/syntax.Compile
+0x6dce2c 74 0
+cfl=(2)
+cfn=(8) regexp/syntax.(*compiler).compile
+calls=0 0x6de2c6 147
+* * 512
+
+ob=(1)
+fl=(2)
+fn=(8)
++2449 122 0
+cfl=(2)
+cfn=(9) regexp/syntax.(*compiler).empty
+calls=0 +2449 266
+* * 512
+
+ob=(1)
+fl=(2)
+fn=(9)
+* 266 0
+cfl=(2)
+cfn=(2)
+calls=0 * 164
+* * 512
+
+ob=(1)
+fl=(2)
+fn=(8)
++2825 147 0
+cfl=(2)
+cfn=(8)
+calls=0 * 122
+* * 512
+
+ob=(1)
+fl=(1)
+fn=(10) regexp.compileOnePass
++79379 498 0
+cfl=(1)
+cfn=(1)
+calls=0 +71446 226
+* * 512
+
+ob=(1)
+fl=(5) /usr/local/go/src/regexp/regexp.go
+fn=(11) regexp.compile
++989 180 0
+cfl=(2)
+cfn=(7)
+calls=0 -84653 74
+* * 512
++24 191 0
+cfl=(1)
+cfn=(10)
+calls=0 -989 498
+* * 512
+
+ob=(1)
+fl=(5)
+fn=(12) regexp.Compile
++2877 135 0
+cfl=(5)
+cfn=(11)
+calls=0 * 191
+* * 512
+cfl=(5)
+cfn=(11)
+calls=0 -24 180
+* * 512
+
+ob=(1)
+fl=(5)
+fn=(13) regexp.MustCompile
+* 315 0
+cfl=(5)
+cfn=(12)
+calls=0 * 135
+* * 1024
+
+ob=(1)
+fl=(4)
+fn=(14) github.com/jinzhu/inflection.compile
++394425 158 0
+cfl=(5)
+cfn=(13)
+calls=0 * 315
+* * 512
++612 168 0
+cfl=(5)
+cfn=(13)
+calls=0 -394425 315
+* * 512
+
+ob=(1)
+fl=(4)
+fn=(6)
++486 176 0
+cfl=(4)
+cfn=(14)
+calls=0 -612 158
+* * 512
+cfl=(4)
+cfn=(14)
+calls=0 * 168
+* * 512

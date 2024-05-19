@@ -1,0 +1,12 @@
+{"level":"info","ts":1716117236.944187,"caller":"data/redis.go:24","msg":"Starting Redis client"}
+{"level":"info","ts":1716117236.9442887,"caller":"data/redis.go:30","msg":"Redis client started"}
+{"level":"info","ts":1716117236.9443083,"caller":"data/postgres.go:26","msg":"Starting Postgres client"}
+{"level":"info","ts":1716117236.9443648,"caller":"data/postgres.go:33","msg":"Postgres client created"}
+{"level":"info","ts":1716117236.9445622,"caller":"controller/controller.go:70","msg":"Starting the Handler"}
+{"level":"info","ts":1716117236.9446354,"caller":"controller/controller.go:79","msg":"Starting the HTTP server"}
+{"level":"warn","ts":1716117291.9938748,"caller":"controller/controller.go:110","msg":"Key not found in cache"}
+{"level":"info","ts":1716117291.9939823,"caller":"controller/controller.go:114","msg":"Reading from main database"}
+{"level":"info","ts":1716117309.4077406,"caller":"controller/controller.go:133","msg":"POST"}
+{"level":"info","ts":1716117309.408225,"caller":"data/redis.go:40","msg":"Written successfully to cache"}
+{"level":"info","ts":1716117309.4083645,"caller":"data/postgres.go:62","msg":"Persisting data in database"}
+{"level":"info","ts":1716117315.1643357,"caller":"controller/controller.go:120","msg":"Key found in cache"}
